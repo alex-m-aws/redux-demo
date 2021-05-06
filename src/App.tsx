@@ -11,7 +11,7 @@ const store = createStore(rootReducer);
 function App() {
   const [withRedux, setWithRedux] = useState(false);
    return (
-    <div style={{ background: "grey", height: "100vh" }}>
+    <div style={{ height: "100vh" }}>
       <FormControlLabel
           control={
             <Switch

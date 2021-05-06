@@ -3,9 +3,10 @@ import Input from "./Input";
 
 const RightContainerSmall = () => (
   <div style={{ 
-    margin: "auto", 
-    background: "#5555AA",
-    padding: 50
+    margin: 25, 
+    padding: 50,
+    border: "1px solid black",
+    borderRadius: "25%"
   }}>
     <div><Input /></div>
     <div style={{ paddingTop: 25, fontSize: 12 }}>

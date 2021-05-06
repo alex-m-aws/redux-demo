@@ -7,9 +7,10 @@ interface Props {
 
 const RightContainerSmall = (props: Props) => (
   <div style={{ 
-    margin: "auto", 
-    background: "#5555AA",
-    padding: 50
+    margin: 25, 
+    padding: 50,
+    border: "1px solid black",
+    borderRadius: "25%"
   }}>
     <div><Input onChange={props.onChangeUsername} /></div>
     <div style={{ paddingTop: 25, fontSize: 12 }}>

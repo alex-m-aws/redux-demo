@@ -7,9 +7,10 @@ interface Props {
 
 const LeftContainerMedium = (props: Props) => (
   <div style={{ 
-    margin: "auto", 
-    background: "#5A5A55",
-    padding: 50
+    margin: 25, 
+    padding: 50,
+    border: "1px solid black",
+    borderRadius: "25%"
   }}>
     <LeftContainerSmall username={props.username} />
     <div style={{ paddingTop: 25, fontSize: 12 }}>

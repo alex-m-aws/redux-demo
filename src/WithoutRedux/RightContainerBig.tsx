@@ -8,9 +8,10 @@ interface Props {
 const RightContainerBig = (props: Props) => (
   <div style={{ 
     width:"50%",
-    margin: "auto", 
-    background: "#AA5555",
-    padding: 50
+    margin: 25, 
+    padding: 50,
+    border: "1px solid black",
+    borderRadius: "25%"
   }}>
     <RightContainerMedium onChangeUsername={props.onChangeUsername} />
     <div style={{ paddingTop: 25, fontSize: 12 }}>

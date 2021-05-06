@@ -3,9 +3,10 @@ import LeftContainerSmall from "./LeftContainerSmall";
 
 const LeftContainerMedium = () => (
   <div style={{ 
-    margin: "auto", 
-    background: "#5A5A55",
-    padding: 50
+    margin: 25, 
+    padding: 50,
+    border: "1px solid black",
+    borderRadius: "25%"
   }}>
     <LeftContainerSmall />
     <div style={{ paddingTop: 25, fontSize: 12 }}>
