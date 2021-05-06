@@ -4,7 +4,7 @@ import LeftContainerSmall from "./LeftContainerSmall";
 const LeftContainerMedium = () => (
   <div style={{ 
     margin: "auto", 
-    background: "#AFAFAA",
+    background: "#5A5A55",
     padding: 50
   }}>
     <LeftContainerSmall />

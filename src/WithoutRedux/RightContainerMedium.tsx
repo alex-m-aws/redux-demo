@@ -8,7 +8,7 @@ interface Props {
 const RightContainerMedium = (props: Props) => (
   <div style={{ 
     margin: "auto", 
-    background: "#AAFFAA",
+    background: "#55AA55",
     padding: 50
   }}>
     <RightContainerSmall onChangeUsername={props.onChangeUsername} />

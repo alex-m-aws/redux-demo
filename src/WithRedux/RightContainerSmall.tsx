@@ -4,7 +4,7 @@ import Input from "./Input";
 const RightContainerSmall = () => (
   <div style={{ 
     margin: "auto", 
-    background: "#AAAAFF",
+    background: "#5555AA",
     padding: 50
   }}>
     <div><Input /></div>

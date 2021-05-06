@@ -8,7 +8,7 @@ interface Props {
 const LeftContainerSmall = (props: Props) => (
   <div style={{  
     margin: "auto", 
-    background: "#AAFAFA",
+    background: "#55A5A5",
     padding: 50
   }}>
     <Greeting username={props.username} />

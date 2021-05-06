@@ -5,7 +5,7 @@ const RightContainerBig = () => (
   <div style={{ 
     width:"50%",
     margin: "auto", 
-    background: "#FFAAAA",
+    background: "#AA5555",
     padding: 50
   }}>
     <RightContainerMedium />

@@ -4,7 +4,7 @@ import Greeting from "./Greeting";
 const LeftContainerSmall = () => (
   <div style={{  
     margin: "auto", 
-    background: "#AAFAFA",
+    background: "#55A5A5",
     padding: 50
   }}>
     <Greeting />
